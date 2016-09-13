@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhysicianReferApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="api_url">http://220.133.185.190:8889</string>
+    <string name="login_button">LOGIN</string>
+    <string name="desc">TODO</string>
+    <string name="guide_msg">Welcome to</string>
+    <string name="account_hint">Account</string>
+    <string name="password_hint">Password</string>
+    <string name="hint_reg_message">尚未註冊，請由此進行</string>
+    <string name="register">註冊</string>
+    <string name="confirm">確定</string>
+    <string name="authorize_warning">警告</string>
+    <string name="authorize_warning_msg">您的帳號或密碼欄位不可以為空</string>
+    <string name="authorize_formatwarning_msg">驗證失敗，請檢查您的帳號是否正確</string>
+    <string name="authorize_error">錯誤</string>
+    <string name="authorize_error_msg">執行錯誤，請檢查網路是否正常</string>
+    <string name="authorize_fail">失敗</string>
+    <string name="authorize_fail_msg">驗證失敗，請檢查您的帳號密碼是否正確</string>
+    <string name="user_name_hint">姓名</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="user_birthday_hint">出生日期</string>
+    <string name="user_telephone_hint">電話</string>
+    <string name="user_email_account_hint">信箱[帳號]</string>
+    <string name="user_password_hint">密碼</string>
+    <string name="user_cfmpassword_hint">確認密碼</string>
+    <string name="send_create_user_button">送出</string>
+    <string name="cancel_create_user_button">取消</string>
+
+</resources>

@@ -1,0 +1,581 @@
+[
+    {
+        "outputFile": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 371,
+                        "endColumn": 48,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 63,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 63,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 54,
+                    "endOffset": 218
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 54,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 223,
+                    "endColumn": 46,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 801,
+                        "endColumn": 46,
+                        "endOffset": 843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endColumn": 62,
+                    "endOffset": 328
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 849,
+                        "endColumn": 62,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 333,
+                    "endColumn": 45,
+                    "endOffset": 374
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 913,
+                        "endColumn": 45,
+                        "endOffset": 954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 379,
+                    "endColumn": 65,
+                    "endOffset": 440
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 960,
+                        "endColumn": 65,
+                        "endOffset": 1021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 445,
+                    "endColumn": 72,
+                    "endOffset": 513
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 727,
+                        "endColumn": 72,
+                        "endOffset": 795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 518,
+                    "endColumn": 48,
+                    "endOffset": 562
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 611,
+                        "endColumn": 48,
+                        "endOffset": 655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 567,
+                    "endColumn": 64,
+                    "endOffset": 627
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 661,
+                        "endColumn": 64,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 632,
+                    "endColumn": 56,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1474,
+                        "endColumn": 56,
+                        "endOffset": 1526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 38,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 571,
+                        "endColumn": 38,
+                        "endOffset": 605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 37,
+                    "endOffset": 761
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 37,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 766,
+                    "endColumn": 48,
+                    "endOffset": 810
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 48,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 815,
+                    "endColumn": 52,
+                    "endOffset": 863
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 52,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 868,
+                    "endColumn": 55,
+                    "endOffset": 919
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 55,
+                        "endOffset": 524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 924,
+                    "endColumn": 46,
+                    "endOffset": 966
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 46,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 971,
+                    "endColumn": 33,
+                    "endOffset": 1000
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1074,
+                        "endColumn": 33,
+                        "endOffset": 1103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1005,
+                    "endColumn": 50,
+                    "endOffset": 1051
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 421,
+                        "endColumn": 50,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1056,
+                    "endColumn": 39,
+                    "endOffset": 1091
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 39,
+                        "endOffset": 565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1096,
+                    "endColumn": 54,
+                    "endOffset": 1146
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1418,
+                        "endColumn": 54,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1151,
+                    "endColumn": 51,
+                    "endOffset": 1198
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1146,
+                        "endColumn": 51,
+                        "endOffset": 1193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1203,
+                    "endColumn": 54,
+                    "endOffset": 1253
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1362,
+                        "endColumn": 54,
+                        "endOffset": 1412
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1258,
+                    "endColumn": 58,
+                    "endOffset": 1312
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1251,
+                        "endColumn": 58,
+                        "endOffset": 1305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1317,
+                    "endColumn": 45,
+                    "endOffset": 1358
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1027,
+                        "endColumn": 45,
+                        "endOffset": 1068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1363,
+                    "endColumn": 49,
+                    "endOffset": 1408
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1311,
+                        "endColumn": 49,
+                        "endOffset": 1356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1413,
+                    "endColumn": 50,
+                    "endOffset": 1459
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1199,
+                        "endColumn": 50,
+                        "endOffset": 1245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1464,
+                    "endColumn": 35,
+                    "endOffset": 1495
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1109,
+                        "endColumn": 35,
+                        "endOffset": 1140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1500,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1786
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1791,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 1946
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]
