@@ -29,6 +29,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.facebook.AccessToken;
+import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -51,6 +53,7 @@ public class PhysicianActivity extends BaseActivity {
 	private final Activity _activity = this;
 	final String apiUrl = "http://220.133.185.190:8889";
 	CallbackManager callbackManager;
+	AccessTokenTracker accessTokenTracker;
 	/*
 	 * (non-Javadoc)
 	 * @see iatollion.com.framework.BaseActivity#onCreate(android.os.Bundle)
@@ -60,6 +63,12 @@ public class PhysicianActivity extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		FacebookSdk.sdkInitialize(getApplicationContext());
 		callbackManager = CallbackManager.Factory.create();
+		accessTokenTracker = new AccessTokenTracker() {
+			@Override
+			protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+				
+			}
+		};
 		AppEventsLogger.activateApp(this);
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);

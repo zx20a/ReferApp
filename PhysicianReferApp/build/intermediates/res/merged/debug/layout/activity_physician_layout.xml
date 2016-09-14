@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <ImageView
+        android:id="@+id/logoImgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/guideMsgView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logoImgView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:gravity="right|center"
+        android:text="@string/guide_msg"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    
+    <EditText
+        android:id="@+id/accountTextField"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:background="@drawable/select_edittext_bg"
+        android:layout_below="@+id/logoImgView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:hint="@string/account_hint"
+        android:textColorHint="#778BB0"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="text" >
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/passwordTextField"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:background="@drawable/select_edittext_bg"
+        android:layout_below="@+id/accountTextField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password_hint"
+        android:textColorHint="#778BB0"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:background="@drawable/btn_black"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:textColor="#000000"
+        android:text="@string/login_button" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/passwordTextField"
+        android:layout_alignLeft="@+id/passwordTextField"
+        android:layout_below="@+id/passwordTextField"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="@string/hint_reg_message" />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordTextField"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_toEndOf="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#2828FF"
+        android:textSize="24sp"
+        android:text="@string/register" />
+
+    <ImageView
+        android:id="@+id/fbAuthLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/facebook_btn" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+</RelativeLayout>

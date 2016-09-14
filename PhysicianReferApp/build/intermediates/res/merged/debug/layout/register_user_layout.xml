@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+        <EditText
+            android:id="@+id/userNameText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/select_edittext_bg"
+            android:ems="10"
+            android:hint="@string/user_name_hint"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="#778BB0"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userNameText"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/manRadioButton"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/man" />
+            <RadioButton
+                android:id="@+id/womanRadioButton"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/woman" />
+        </RadioGroup>
+        
+        <EditText
+            android:id="@+id/birthdayEditText"
+            android:layout_below="@+id/genderRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/select_edittext_bg"
+            android:hint="@string/user_birthday_hint"
+            android:singleLine="true"
+            android:textColorHint="#778BB0" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/telephoneEditText"
+            android:layout_below="@+id/birthdayEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/select_edittext_bg"
+            android:hint="@string/user_telephone_hint"
+            android:singleLine="true"
+            android:textColorHint="#778BB0" >       
+        </EditText>
+        
+        <EditText
+            android:id="@+id/eAccountEditText"
+            android:layout_below="@+id/telephoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/select_edittext_bg"
+            android:hint="@string/user_email_account_hint"
+            android:singleLine="true"
+            android:textColorHint="#778BB0" >
+        </EditText>
+        
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_below="@+id/eAccountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/select_edittext_bg"
+            android:hint="@string/user_password_hint"
+            android:singleLine="true"
+            android:textColorHint="#778BB0" >    
+        </EditText>
+        
+        <EditText
+            android:id="@+id/cfmPasswordEditText"
+            android:layout_below="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/select_edittext_bg"
+            android:hint="@string/user_cfmpassword_hint"
+            android:singleLine="true"
+            android:textColorHint="#778BB0" >    
+        </EditText>
+        
+        <Button
+            android:id="@+id/createUser_Ok_Button"
+            android:layout_below="@+id/cfmPasswordEditText"
+            android:background="@drawable/btn_black"
+            android:layout_width="300dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:text="@string/send_create_user_button" >     
+        </Button>
+        
+        <Button
+            android:id="@+id/createUser_Cancel_Button"
+            android:layout_below="@+id/createUser_Ok_Button"
+            android:background="@drawable/btn_black"
+            android:layout_width="300dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:text="@string/cancel_create_user_button" >     
+        </Button>
+
+</RelativeLayout>
+    
+</ScrollView>
