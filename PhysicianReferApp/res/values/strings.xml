@@ -4,6 +4,7 @@
     <string name="app_name">PhysicianReferApp</string>
     <string name="hello_world">Hello world!</string>
     <string name="api_url">http://220.133.185.190:8889</string>
+    <string name="facebook_app_id">526879767504942</string>
     <string name="login_button">LOGIN</string>
     <string name="desc">TODO</string>
     <string name="guide_msg">Welcome to</string>

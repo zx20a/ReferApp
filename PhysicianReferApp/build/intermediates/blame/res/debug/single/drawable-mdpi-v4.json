@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png"
     },
     {
-        "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
-        "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
-    },
-    {
         "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
         "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
         "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
@@ -100,11 +100,11 @@
         "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-mdpi-v4\\messenger_bubble_small_blue.png"
     },
     {
-        "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\facebook_btn.png",
-        "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\drawable-mdpi\\facebook_btn.png"
-    },
-    {
         "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png",
         "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\facebook_btn.png",
+        "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\drawable-mdpi\\facebook_btn.png"
     }
 ]

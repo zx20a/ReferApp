@@ -24,11 +24,19 @@ import android.widget.Toast;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-//import com.facebook.FacebookSdk;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+import com.facebook.login.LoginManager;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
 
 /**
  * @category main class about first display view
@@ -42,7 +50,7 @@ public class PhysicianActivity extends BaseActivity {
 	private View rootView;
 	private final Activity _activity = this;
 	final String apiUrl = "http://220.133.185.190:8889";
-			
+	CallbackManager callbackManager;
 	/*
 	 * (non-Javadoc)
 	 * @see iatollion.com.framework.BaseActivity#onCreate(android.os.Bundle)
@@ -50,13 +58,38 @@ public class PhysicianActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		FacebookSdk.sdkInitialize(getApplicationContext());
+		callbackManager = CallbackManager.Factory.create();
+		AppEventsLogger.activateApp(this);
+
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		rootView = LayoutInflater.from(this).inflate(R.layout.activity_physician_layout, null);
+
 		setContentView(rootView);
-		
 		initViewObject();
+
+		LoginManager.getInstance().registerCallback(callbackManager,new FacebookCallback<LoginResult>() {
+			@Override
+			public void onSuccess(LoginResult loginResult) {
+				Toast.makeText(PhysicianActivity.this, "FB login OK", Toast.LENGTH_SHORT).show();
+			}
+			@Override
+			public void onCancel() {
+				Toast.makeText(PhysicianActivity.this, "FB cancel", Toast.LENGTH_SHORT).show();
+			}
+			@Override
+			public void onError(FacebookException exception) {
+				Toast.makeText(PhysicianActivity.this, "FB login failed", Toast.LENGTH_SHORT).show();
+
+			}
+		});
 	}
-	
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data){
+		super.onActivityResult(requestCode, resultCode, data);
+		callbackManager.onActivityResult(requestCode, resultCode, data);
+	}
 	protected void initViewObject() {
 		Button loginBtn = (Button)findViewById(R.id.loginButton);
 		loginBtn.setOnClickListener(loginClick);
@@ -66,12 +99,31 @@ public class PhysicianActivity extends BaseActivity {
 		
 		TextView registerLink = (TextView)findViewById(R.id.registerLink);
 		registerLink.setOnClickListener(registerClick);
+
+		LoginButton loginButton = (LoginButton)findViewById(R.id.login_button);
+		loginButton.setReadPermissions("email");
+//		loginButton.setFragment(this);
+		loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+			@Override
+			public void onSuccess(LoginResult loginResult) {
+				Toast.makeText(PhysicianActivity.this, "FB login OK", Toast.LENGTH_SHORT).show();
+			}
+			@Override
+			public void onCancel() {
+				Toast.makeText(PhysicianActivity.this, "FB cancel", Toast.LENGTH_SHORT).show();
+			}
+			@Override
+			public void onError(FacebookException exception) {
+				Toast.makeText(PhysicianActivity.this, "FB login failed", Toast.LENGTH_SHORT).show();
+			}
+		});
 	}
 	
 	/**
 	 * @category Button on click event
 	 * @descript User account、password login check and authorization
 	 */
+
 	private Button.OnClickListener loginClick = new Button.OnClickListener() {
 		@Override
 		public void onClick(View view) {
@@ -105,6 +157,8 @@ public class PhysicianActivity extends BaseActivity {
 		@Override
 		public void onClick(View view) {
 			// TODO
+			LoginManager.getInstance().logInWithReadPermissions(PhysicianActivity.this, Arrays.asList("public_profile", "user_friends"));
+
 //			Intent intent = new Intent(Intent.ACTION_VIEW);
 //			intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 //			intent.setClass(view.getContext(), SkypeTest.class);

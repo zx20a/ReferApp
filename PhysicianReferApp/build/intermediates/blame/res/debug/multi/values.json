@@ -906,11 +906,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 371,
+                        "startOffset": 432,
                         "endColumn": 48,
-                        "endOffset": 415
+                        "endOffset": 476
                     }
                 }
             },
@@ -963,11 +963,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 801,
+                        "startOffset": 862,
                         "endColumn": 46,
-                        "endOffset": 843
+                        "endOffset": 904
                     }
                 }
             },
@@ -982,11 +982,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 849,
+                        "startOffset": 910,
                         "endColumn": 62,
-                        "endOffset": 907
+                        "endOffset": 968
                     }
                 }
             },
@@ -1001,11 +1001,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 913,
+                        "startOffset": 974,
                         "endColumn": 45,
-                        "endOffset": 954
+                        "endOffset": 1015
                     }
                 }
             },
@@ -1020,11 +1020,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 960,
+                        "startOffset": 1021,
                         "endColumn": 65,
-                        "endOffset": 1021
+                        "endOffset": 1082
                     }
                 }
             },
@@ -1039,11 +1039,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 727,
+                        "startOffset": 788,
                         "endColumn": 72,
-                        "endOffset": 795
+                        "endOffset": 856
                     }
                 }
             },
@@ -1058,11 +1058,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 611,
+                        "startOffset": 672,
                         "endColumn": 48,
-                        "endOffset": 655
+                        "endOffset": 716
                     }
                 }
             },
@@ -1077,11 +1077,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 661,
+                        "startOffset": 722,
                         "endColumn": 64,
-                        "endOffset": 721
+                        "endOffset": 782
                     }
                 }
             },
@@ -1096,11 +1096,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 1474,
+                        "startOffset": 1535,
                         "endColumn": 56,
-                        "endOffset": 1526
+                        "endOffset": 1587
                     }
                 }
             },
@@ -1438,11 +1438,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 571,
+                        "startOffset": 632,
                         "endColumn": 38,
-                        "endOffset": 605
+                        "endOffset": 666
                     }
                 }
             },
@@ -1457,11 +1457,11 @@
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 282,
+                        "startOffset": 343,
                         "endColumn": 37,
-                        "endOffset": 315
+                        "endOffset": 376
                     }
                 }
             },
@@ -1470,17 +1470,17 @@
                     "startLine": 83,
                     "startColumn": 4,
                     "startOffset": 7788,
-                    "endColumn": 48,
-                    "endOffset": 7832
+                    "endColumn": 59,
+                    "endOffset": 7843
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 321,
-                        "endColumn": 48,
-                        "endOffset": 365
+                        "startOffset": 234,
+                        "endColumn": 59,
+                        "endOffset": 289
                     }
                 }
             },
@@ -1488,9 +1488,28 @@
                 "to": {
                     "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 7837,
+                    "startOffset": 7848,
+                    "endColumn": 48,
+                    "endOffset": 7892
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 382,
+                        "endColumn": 48,
+                        "endOffset": 426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 7897,
                     "endColumn": 52,
-                    "endOffset": 7885
+                    "endOffset": 7945
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
@@ -1505,39 +1524,20 @@
             },
             {
                 "to": {
-                    "startLine": 85,
-                    "startColumn": 4,
-                    "startOffset": 7890,
-                    "endColumn": 55,
-                    "endOffset": 7941
-                },
-                "from": {
-                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 473,
-                        "endColumn": 55,
-                        "endOffset": 524
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 7946,
-                    "endColumn": 46,
-                    "endOffset": 7988
+                    "startOffset": 7950,
+                    "endColumn": 55,
+                    "endOffset": 8001
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 234,
-                        "endColumn": 46,
-                        "endOffset": 276
+                        "startOffset": 534,
+                        "endColumn": 55,
+                        "endOffset": 585
                     }
                 }
             },
@@ -1545,18 +1545,18 @@
                 "to": {
                     "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 7993,
-                    "endColumn": 33,
-                    "endOffset": 8022
+                    "startOffset": 8006,
+                    "endColumn": 46,
+                    "endOffset": 8048
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 1074,
-                        "endColumn": 33,
-                        "endOffset": 1103
+                        "startOffset": 295,
+                        "endColumn": 46,
+                        "endOffset": 337
                     }
                 }
             },
@@ -1564,9 +1564,28 @@
                 "to": {
                     "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 8027,
-                    "endColumn": 59,
+                    "startOffset": 8053,
+                    "endColumn": 33,
                     "endOffset": 8082
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1135,
+                        "endColumn": 33,
+                        "endOffset": 1164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 8087,
+                    "endColumn": 59,
+                    "endOffset": 8142
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -1581,39 +1600,20 @@
             },
             {
                 "to": {
-                    "startLine": 89,
-                    "startColumn": 4,
-                    "startOffset": 8087,
-                    "endColumn": 50,
-                    "endOffset": 8133
-                },
-                "from": {
-                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 421,
-                        "endColumn": 50,
-                        "endOffset": 467
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 8138,
-                    "endColumn": 39,
-                    "endOffset": 8173
+                    "startOffset": 8147,
+                    "endColumn": 50,
+                    "endOffset": 8193
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 530,
-                        "endColumn": 39,
-                        "endOffset": 565
+                        "startOffset": 482,
+                        "endColumn": 50,
+                        "endOffset": 528
                     }
                 }
             },
@@ -1621,18 +1621,18 @@
                 "to": {
                     "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 8178,
-                    "endColumn": 54,
-                    "endOffset": 8228
+                    "startOffset": 8198,
+                    "endColumn": 39,
+                    "endOffset": 8233
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1418,
-                        "endColumn": 54,
-                        "endOffset": 1468
+                        "startOffset": 591,
+                        "endColumn": 39,
+                        "endOffset": 626
                     }
                 }
             },
@@ -1640,18 +1640,18 @@
                 "to": {
                     "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 8233,
-                    "endColumn": 51,
-                    "endOffset": 8280
+                    "startOffset": 8238,
+                    "endColumn": 54,
+                    "endOffset": 8288
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1146,
-                        "endColumn": 51,
-                        "endOffset": 1193
+                        "startOffset": 1479,
+                        "endColumn": 54,
+                        "endOffset": 1529
                     }
                 }
             },
@@ -1659,18 +1659,18 @@
                 "to": {
                     "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 8285,
-                    "endColumn": 54,
-                    "endOffset": 8335
+                    "startOffset": 8293,
+                    "endColumn": 51,
+                    "endOffset": 8340
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1362,
-                        "endColumn": 54,
-                        "endOffset": 1412
+                        "startOffset": 1207,
+                        "endColumn": 51,
+                        "endOffset": 1254
                     }
                 }
             },
@@ -1678,18 +1678,18 @@
                 "to": {
                     "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 8340,
-                    "endColumn": 58,
-                    "endOffset": 8394
+                    "startOffset": 8345,
+                    "endColumn": 54,
+                    "endOffset": 8395
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1251,
-                        "endColumn": 58,
-                        "endOffset": 1305
+                        "startOffset": 1423,
+                        "endColumn": 54,
+                        "endOffset": 1473
                     }
                 }
             },
@@ -1697,18 +1697,18 @@
                 "to": {
                     "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 8399,
-                    "endColumn": 45,
-                    "endOffset": 8440
+                    "startOffset": 8400,
+                    "endColumn": 58,
+                    "endOffset": 8454
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1027,
-                        "endColumn": 45,
-                        "endOffset": 1068
+                        "startOffset": 1312,
+                        "endColumn": 58,
+                        "endOffset": 1366
                     }
                 }
             },
@@ -1716,18 +1716,18 @@
                 "to": {
                     "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 8445,
-                    "endColumn": 49,
-                    "endOffset": 8490
+                    "startOffset": 8459,
+                    "endColumn": 45,
+                    "endOffset": 8500
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1311,
-                        "endColumn": 49,
-                        "endOffset": 1356
+                        "startOffset": 1088,
+                        "endColumn": 45,
+                        "endOffset": 1129
                     }
                 }
             },
@@ -1735,18 +1735,18 @@
                 "to": {
                     "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 8495,
-                    "endColumn": 50,
-                    "endOffset": 8541
+                    "startOffset": 8505,
+                    "endColumn": 49,
+                    "endOffset": 8550
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1199,
-                        "endColumn": 50,
-                        "endOffset": 1245
+                        "startOffset": 1372,
+                        "endColumn": 49,
+                        "endOffset": 1417
                     }
                 }
             },
@@ -1754,18 +1754,18 @@
                 "to": {
                     "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 8546,
-                    "endColumn": 35,
-                    "endOffset": 8577
+                    "startOffset": 8555,
+                    "endColumn": 50,
+                    "endOffset": 8601
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1109,
-                        "endColumn": 35,
-                        "endOffset": 1140
+                        "startOffset": 1260,
+                        "endColumn": 50,
+                        "endOffset": 1306
                     }
                 }
             },
@@ -1773,10 +1773,29 @@
                 "to": {
                     "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 8582,
-                    "endLine": 105,
+                    "startOffset": 8606,
+                    "endColumn": 35,
+                    "endOffset": 8637
+                },
+                "from": {
+                    "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1170,
+                        "endColumn": 35,
+                        "endOffset": 1201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 8642,
+                    "endLine": 106,
                     "endColumn": 12,
-                    "endOffset": 8868
+                    "endOffset": 8928
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\styles.xml",
@@ -1792,12 +1811,12 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 8873,
-                    "endLine": 108,
+                    "startOffset": 8933,
+                    "endLine": 109,
                     "endColumn": 12,
-                    "endOffset": 9028
+                    "endOffset": 9088
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\res\\values\\styles.xml",
@@ -1813,12 +1832,12 @@
             },
             {
                 "to": {
-                    "startLine": 109,
+                    "startLine": 110,
                     "startColumn": 4,
-                    "startOffset": 9033,
-                    "endLine": 115,
+                    "startOffset": 9093,
+                    "endLine": 116,
                     "endColumn": 12,
-                    "endOffset": 9442
+                    "endOffset": 9502
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
@@ -1834,12 +1853,12 @@
             },
             {
                 "to": {
-                    "startLine": 116,
+                    "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 9447,
-                    "endLine": 117,
+                    "startOffset": 9507,
+                    "endLine": 118,
                     "endColumn": 12,
-                    "endOffset": 9506
+                    "endOffset": 9566
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
@@ -1855,12 +1874,12 @@
             },
             {
                 "to": {
-                    "startLine": 118,
+                    "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 9511,
-                    "endLine": 120,
+                    "startOffset": 9571,
+                    "endLine": 121,
                     "endColumn": 12,
-                    "endOffset": 9632
+                    "endOffset": 9692
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
@@ -1876,12 +1895,12 @@
             },
             {
                 "to": {
-                    "startLine": 121,
+                    "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 9637,
-                    "endLine": 123,
+                    "startOffset": 9697,
+                    "endLine": 124,
                     "endColumn": 12,
-                    "endOffset": 9760
+                    "endOffset": 9820
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.4.0\\res\\values\\values.xml",
@@ -1897,12 +1916,12 @@
             },
             {
                 "to": {
-                    "startLine": 124,
+                    "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 9765,
-                    "endLine": 126,
+                    "startOffset": 9825,
+                    "endLine": 127,
                     "endColumn": 10,
-                    "endOffset": 9853
+                    "endOffset": 9913
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -1918,12 +1937,12 @@
             },
             {
                 "to": {
-                    "startLine": 127,
+                    "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 9858,
-                    "endLine": 129,
+                    "startOffset": 9918,
+                    "endLine": 130,
                     "endColumn": 10,
-                    "endOffset": 9991
+                    "endOffset": 10051
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -1939,12 +1958,12 @@
             },
             {
                 "to": {
-                    "startLine": 130,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 9996,
-                    "endLine": 135,
+                    "startOffset": 10056,
+                    "endLine": 136,
                     "endColumn": 10,
-                    "endOffset": 10268
+                    "endOffset": 10328
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -1960,12 +1979,12 @@
             },
             {
                 "to": {
-                    "startLine": 136,
+                    "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 10273,
-                    "endLine": 139,
+                    "startOffset": 10333,
+                    "endLine": 140,
                     "endColumn": 10,
-                    "endOffset": 10427
+                    "endOffset": 10487
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -1981,12 +2000,12 @@
             },
             {
                 "to": {
-                    "startLine": 140,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 10432,
-                    "endLine": 142,
+                    "startOffset": 10492,
+                    "endLine": 143,
                     "endColumn": 10,
-                    "endOffset": 10567
+                    "endOffset": 10627
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2002,12 +2021,12 @@
             },
             {
                 "to": {
-                    "startLine": 143,
+                    "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 10572,
-                    "endLine": 148,
+                    "startOffset": 10632,
+                    "endLine": 149,
                     "endColumn": 10,
-                    "endOffset": 10845
+                    "endOffset": 10905
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2023,12 +2042,12 @@
             },
             {
                 "to": {
-                    "startLine": 149,
+                    "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 10850,
-                    "endLine": 152,
+                    "startOffset": 10910,
+                    "endLine": 153,
                     "endColumn": 10,
-                    "endOffset": 11005
+                    "endOffset": 11065
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2044,12 +2063,12 @@
             },
             {
                 "to": {
-                    "startLine": 153,
+                    "startLine": 154,
                     "startColumn": 4,
-                    "startOffset": 11010,
-                    "endLine": 163,
+                    "startOffset": 11070,
+                    "endLine": 164,
                     "endColumn": 10,
-                    "endOffset": 11495
+                    "endOffset": 11555
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2065,12 +2084,12 @@
             },
             {
                 "to": {
-                    "startLine": 164,
+                    "startLine": 165,
                     "startColumn": 4,
-                    "startOffset": 11500,
-                    "endLine": 166,
+                    "startOffset": 11560,
+                    "endLine": 167,
                     "endColumn": 10,
-                    "endOffset": 11600
+                    "endOffset": 11660
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2086,12 +2105,12 @@
             },
             {
                 "to": {
-                    "startLine": 167,
+                    "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 11605,
-                    "endLine": 169,
+                    "startOffset": 11665,
+                    "endLine": 170,
                     "endColumn": 10,
-                    "endOffset": 11745
+                    "endOffset": 11805
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2107,12 +2126,12 @@
             },
             {
                 "to": {
-                    "startLine": 170,
+                    "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 11750,
-                    "endLine": 172,
+                    "startOffset": 11810,
+                    "endLine": 173,
                     "endColumn": 10,
-                    "endOffset": 11890
+                    "endOffset": 11950
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2128,12 +2147,12 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 11895,
-                    "endLine": 175,
+                    "startOffset": 11955,
+                    "endLine": 176,
                     "endColumn": 10,
-                    "endOffset": 11996
+                    "endOffset": 12056
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2149,12 +2168,12 @@
             },
             {
                 "to": {
-                    "startLine": 176,
+                    "startLine": 177,
                     "startColumn": 4,
-                    "startOffset": 12001,
-                    "endLine": 178,
+                    "startOffset": 12061,
+                    "endLine": 179,
                     "endColumn": 10,
-                    "endOffset": 12141
+                    "endOffset": 12201
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2170,12 +2189,12 @@
             },
             {
                 "to": {
-                    "startLine": 179,
+                    "startLine": 180,
                     "startColumn": 4,
-                    "startOffset": 12146,
-                    "endLine": 181,
+                    "startOffset": 12206,
+                    "endLine": 182,
                     "endColumn": 10,
-                    "endOffset": 12286
+                    "endOffset": 12346
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2191,12 +2210,12 @@
             },
             {
                 "to": {
-                    "startLine": 182,
+                    "startLine": 183,
                     "startColumn": 4,
-                    "startOffset": 12291,
-                    "endLine": 187,
+                    "startOffset": 12351,
+                    "endLine": 188,
                     "endColumn": 12,
-                    "endOffset": 12633
+                    "endOffset": 12693
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2212,12 +2231,12 @@
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 189,
                     "startColumn": 4,
-                    "startOffset": 12638,
-                    "endLine": 198,
+                    "startOffset": 12698,
+                    "endLine": 199,
                     "endColumn": 12,
-                    "endOffset": 13264
+                    "endOffset": 13324
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2233,12 +2252,12 @@
             },
             {
                 "to": {
-                    "startLine": 199,
+                    "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 13269,
-                    "endLine": 201,
+                    "startOffset": 13329,
+                    "endLine": 202,
                     "endColumn": 12,
-                    "endOffset": 13443
+                    "endOffset": 13503
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2254,12 +2273,12 @@
             },
             {
                 "to": {
-                    "startLine": 202,
+                    "startLine": 203,
                     "startColumn": 4,
-                    "startOffset": 13448,
-                    "endLine": 207,
+                    "startOffset": 13508,
+                    "endLine": 208,
                     "endColumn": 12,
-                    "endOffset": 13879
+                    "endOffset": 13939
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2275,12 +2294,12 @@
             },
             {
                 "to": {
-                    "startLine": 208,
+                    "startLine": 209,
                     "startColumn": 4,
-                    "startOffset": 13884,
-                    "endLine": 211,
+                    "startOffset": 13944,
+                    "endLine": 212,
                     "endColumn": 12,
-                    "endOffset": 14130
+                    "endOffset": 14190
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2296,12 +2315,12 @@
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 14135,
-                    "endLine": 214,
+                    "startOffset": 14195,
+                    "endLine": 215,
                     "endColumn": 12,
-                    "endOffset": 14312
+                    "endOffset": 14372
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2317,12 +2336,12 @@
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 14317,
-                    "endLine": 219,
+                    "startOffset": 14377,
+                    "endLine": 220,
                     "endColumn": 12,
-                    "endOffset": 14636
+                    "endOffset": 14696
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",
@@ -2338,12 +2357,12 @@
             },
             {
                 "to": {
-                    "startLine": 220,
+                    "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 14641,
-                    "endLine": 227,
+                    "startOffset": 14701,
+                    "endLine": 228,
                     "endColumn": 12,
-                    "endOffset": 15014
+                    "endOffset": 15074
                 },
                 "from": {
                     "file": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\values\\values.xml",

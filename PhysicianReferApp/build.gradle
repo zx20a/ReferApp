@@ -1,8 +1,5 @@
 buildscript {
-    repositories {
-        jcenter()
-        mavenCentral()
-    }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.3'
     }
@@ -20,9 +17,12 @@ dependencies {
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
 }
 
+
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
+
 
     sourceSets {
         main {

@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\layout\\com_facebook_login_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
         "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.15.0\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Yen-Po Wang\\Documents\\Projects\\Android\\PhysicianReferApp\\PhysicianReferApp\\build\\intermediates\\res\\merged\\debug\\layout\\register_user_layout.xml",

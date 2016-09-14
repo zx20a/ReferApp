@@ -81,6 +81,7 @@
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <string name="confirm">確定</string>
     <string name="desc">TODO</string>
+    <string name="facebook_app_id">526879767504942</string>
     <string name="guide_msg">Welcome to</string>
     <string name="hello_world">Hello world!</string>
     <string name="hint_reg_message">尚未註冊，請由此進行</string>
