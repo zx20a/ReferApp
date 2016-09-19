@@ -117,8 +117,9 @@ public class PhysicianActivity extends BaseActivity {
 		@Override
 		public void onClick(View view) {
 			// TODO
-			Intent intent = new Intent(Intent.ACTION_VIEW);
+			Intent intent = new Intent();
 			intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			intent.setClass(view.getContext(), FbLoginActivity.class);
 			startActivity(intent);
 		}

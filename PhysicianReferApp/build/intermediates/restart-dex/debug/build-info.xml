@@ -4,40 +4,30 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="3683757872978"
+    timestamp="4745647027913"
     token="6357747587630395678" >
 
     <task
         name="javac"
-        duration="238" />
+        duration="1015" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="54" />
+        duration="441" />
     <task
         name="verifier"
-        duration="11" />
+        duration="114" />
 
     <artifact
-        location="C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
+        location="C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\outputs\apk\PhysicianReferApp-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="646193572953" >
+    <build timestamp="4745647027913" >
         <artifact
             location="C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\outputs\apk\PhysicianReferApp-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="3546807562991" >
-        <artifact
-            location="C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\outputs\apk\PhysicianReferApp-debug.apk"
-            type="MAIN" />
-    </build>
-    <build timestamp="3683757872978" >
-        <artifact
-            location="C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

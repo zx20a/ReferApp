@@ -2,14 +2,10 @@ package iatollion.com.tw;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageInstaller;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
@@ -24,10 +20,7 @@ import com.facebook.HttpMethod;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-
-
 import org.json.JSONObject;
-
 import java.util.Arrays;
 
 
@@ -42,7 +35,7 @@ public class FbLoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         userName = "";
         FacebookSdk.sdkInitialize(getApplicationContext());
-        setContentView(R.layout.activity_fb_login);
+//        setContentView(R.layout.activity_fb_login);
 
         callbackManager = CallbackManager.Factory.create();
         accessTokenTracker = new AccessTokenTracker() {
@@ -50,6 +43,11 @@ public class FbLoginActivity extends Activity {
             protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
                 accessToken = AccessToken.getCurrentAccessToken();
                 Log.v("accessToken changed:","token changed");
+                if(accessToken == null){
+                    userName = "";
+                    finish();
+                }
+                requestFbUserName(accessToken);
             }
         };
         AppEventsLogger.activateApp(this);
@@ -59,31 +57,23 @@ public class FbLoginActivity extends Activity {
                 Toast.makeText(FbLoginActivity.this, "FB login OK", Toast.LENGTH_SHORT).show();
                 Log.i("FB current user", loginResult.getAccessToken().getUserId());
                 Log.i("FB auth", loginResult.getAccessToken().getToken());
-                requestFbUserName();
             }
             @Override
             public void onCancel() {
                 Toast.makeText(FbLoginActivity.this, "FB cancel", Toast.LENGTH_SHORT).show();
-                userName = "";
+                finish();
             }
             @Override
             public void onError(FacebookException exception) {
                 Toast.makeText(FbLoginActivity.this, "FB login failed", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
-        Button confirmLoginButton = (Button)findViewById(R.id.confirm_login_button);
-        confirmLoginButton.setOnClickListener(confirmLoginClick);
+//        Button confirmLoginButton = (Button)findViewById(R.id.confirm_login_button);
+//        confirmLoginButton.setOnClickListener(confirmLoginClick);
 
         //Get current FB login status
         accessToken = AccessToken.getCurrentAccessToken();
-
-        if(accessToken != null){
-            Log.v("FBLogin OnCreate", "accessToken is not null.");
-//            requestFbUserName();
-        }
-        else{
-            Log.v("FBLogin OnCreate", "accessToken is null.");
-        }
         fbLoginProcess(accessToken);
     }
 
@@ -98,12 +88,6 @@ public class FbLoginActivity extends Activity {
         accessTokenTracker.stopTracking();
     }
 
-    private Button.OnClickListener confirmLoginClick = new Button.OnClickListener(){
-        @Override
-        public void onClick(View view) {
-            fbLoginProcess(accessToken);
-        }
-    };
     private void fbLoginProcess(AccessToken token){
         if(token != null){
             Log.v("fbLoginProcess", "accessToken is not null.");
@@ -126,6 +110,7 @@ public class FbLoginActivity extends Activity {
                                                 @Override
                                                 public void onClick(DialogInterface dialog, int which) {                        // TODO
                                                     Log.v("fbLoginProcess", "Ok clicked.");
+                                                    finish();
                                                 }
                                             })
                                             .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -133,8 +118,7 @@ public class FbLoginActivity extends Activity {
                                                 public void onClick(DialogInterface dialog, int which) {
                                                     Log.v("fbLoginProcess", "Cancel clicked.");
                                                     LoginManager.getInstance().logOut();
-                                                    userName = "";
-                                                    disconnectFromFacebook();
+//                                                    disconnectFromFacebook();
                                                 }
                                             });
                                     builder.create();
@@ -160,27 +144,33 @@ public class FbLoginActivity extends Activity {
             LoginManager.getInstance().logInWithReadPermissions(FbLoginActivity.this, Arrays.asList("public_profile", "email"));
         }
     }
-    private void requestFbUserName(){
-        Log.v("requestFbUserName", "Start");
-        GraphRequest request = GraphRequest.newMeRequest(
-                accessToken,
-                new GraphRequest.GraphJSONObjectCallback() {
-                    @Override
-                    public void onCompleted(
-                            JSONObject object,
-                            GraphResponse response) {
-                        try {
-                            Log.i("FB request completed","username: " + object.getString("name"));
+    private void requestFbUserName(AccessToken token){
+        if(token != null) {
+            Log.v("requestFbUserName", "Start");
+            GraphRequest request = GraphRequest.newMeRequest(
+                    token,
+                    new GraphRequest.GraphJSONObjectCallback() {
+                        @Override
+                        public void onCompleted(
+                                JSONObject object,
+                                GraphResponse response) {
+                            try {
+                                userName = object.getString("name");
+                                Log.i("FB request completed", "username: " + userName);
+                                _activity.finish();
+                            } catch (Exception e) {
+                                Log.e("FB request completed", "Failed to get the specific filed data");
+                            }
                         }
-                        catch(Exception e){
-                            Log.e("FB request completed","Failed to get the specific filed data");
-                        }
-                    }
-                });
-        Bundle parameters = new Bundle();
-        parameters.putString("fields", "id,name,link");
-        request.setParameters(parameters);
-        request.executeAsync();
+                    });
+            Bundle parameters = new Bundle();
+            parameters.putString("fields", "id,name,link");
+            request.setParameters(parameters);
+            request.executeAsync();
+        }
+        else{
+            Log.e("Request name","token is null");
+        }
     }
     public void disconnectFromFacebook() {
 

@@ -1,7 +1,0 @@
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\iatollion\com\tw\FbLoginActivity$override.class
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\iatollion\com\tw\FbLoginActivity$6$override.class
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\iatollion\com\tw\FbLoginActivity$4$override.class
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\iatollion\com\tw\FbLoginActivity$4$1$override.class
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\iatollion\com\tw\FbLoginActivity$5$override.class
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\iatollion\com\tw\FbLoginActivity$4$2$override.class
-CHANGED,C:\Users\Yen-Po Wang\Documents\Projects\Android\PhysicianReferApp\PhysicianReferApp\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
