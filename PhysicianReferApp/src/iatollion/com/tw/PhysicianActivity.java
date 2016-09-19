@@ -35,6 +35,8 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
@@ -52,6 +54,11 @@ public class PhysicianActivity extends BaseActivity {
 	private View rootView;
 	private final Activity _activity = this;
 	final String apiUrl = "http://220.133.185.190:8889";
+	private  CallbackManager callbackManager;
+	private  AccessTokenTracker accessTokenTracker;
+	private  AccessToken accessToken;
+	private String userName;
+
 
 	/*
 	 * (non-Javadoc)
@@ -60,23 +67,62 @@ public class PhysicianActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		FacebookSdk.sdkInitialize(getApplicationContext());
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		rootView = LayoutInflater.from(this).inflate(R.layout.activity_physician_layout, null);
-
 		setContentView(rootView);
+
+		fbLoginInit();
 		initViewObject();
+		accessToken = AccessToken.getCurrentAccessToken();
+		if(accessToken != null){
+			requestFbUserName(accessToken);
+		}
 	}
 
 	protected void initViewObject() {
 		Button loginBtn = (Button)findViewById(R.id.loginButton);
 		loginBtn.setOnClickListener(loginClick);
 		
-		ImageView imgView = (ImageView)findViewById(R.id.fbAuthLink);
-		imgView.setOnClickListener(fbAuthorizeClick);
-		
 		TextView registerLink = (TextView)findViewById(R.id.registerLink);
 		registerLink.setOnClickListener(registerClick);
+	}
+
+	private void fbLoginInit(){
+		callbackManager = CallbackManager.Factory.create();
+		userName = "";
+		accessTokenTracker = new AccessTokenTracker() {
+			@Override
+			protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+				accessToken = AccessToken.getCurrentAccessToken();
+				Log.v("accessToken changed:","token changed");
+				if(accessToken == null){
+					userName = "";
+				}
+				requestFbUserName(accessToken);
+			}
+		};
+
+		LoginButton loginButton = (LoginButton) findViewById(R.id.fb_login_button);
+		loginButton.setReadPermissions("email");
+
+		// Callback registration
+		loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+			@Override
+			public void onSuccess(LoginResult loginResult) {
+				Toast.makeText(_activity, "FB login OK", Toast.LENGTH_SHORT).show();
+				Log.i("FB current user", loginResult.getAccessToken().getUserId());
+				Log.i("FB auth", loginResult.getAccessToken().getToken());
+			}
+			@Override
+			public void onCancel() {
+				Toast.makeText(_activity, "FB cancel", Toast.LENGTH_SHORT).show();
+			}
+			@Override
+			public void onError(FacebookException exception) {
+				Toast.makeText(_activity, "FB login failed", Toast.LENGTH_SHORT).show();
+			}
+		});
 	}
 	
 	/**
@@ -161,6 +207,44 @@ public class PhysicianActivity extends BaseActivity {
 				Notice.popAuthFormatWarningMessage();
 				return false;
 			}
+		}
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data){
+		super.onActivityResult(requestCode, resultCode, data);
+		callbackManager.onActivityResult(requestCode, resultCode, data);
+	}
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+		accessTokenTracker.stopTracking();
+	}
+	private void requestFbUserName(AccessToken token){
+		if(token != null) {
+			Log.v("requestFbUserName", "Start");
+			GraphRequest request = GraphRequest.newMeRequest(
+					token,
+					new GraphRequest.GraphJSONObjectCallback() {
+						@Override
+						public void onCompleted(
+								JSONObject object,
+								GraphResponse response) {
+							try {
+								userName = object.getString("name");
+								Log.i("FB request completed", "username: " + userName);
+							} catch (Exception e) {
+								Log.e("FB request completed", "Failed to get the specific filed data");
+							}
+						}
+					});
+			Bundle parameters = new Bundle();
+			parameters.putString("fields", "id,name,link");
+			request.setParameters(parameters);
+			request.executeAsync();
+		}
+		else{
+			Log.e("Request name","token is null");
 		}
 	}
 	

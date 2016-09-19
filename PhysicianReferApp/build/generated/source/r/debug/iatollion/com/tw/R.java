@@ -366,7 +366,7 @@ containing a value of this type.
         public static final int createUser_Ok_Button=0x7f09002f;
         public static final int display_always=0x7f09000d;
         public static final int eAccountEditText=0x7f09002c;
-        public static final int fbAuthLink=0x7f090019;
+        public static final int fb_login_button=0x7f090019;
         public static final int genderRadioGroup=0x7f090027;
         public static final int guideMsgView=0x7f090013;
         public static final int inline=0x7f090007;
